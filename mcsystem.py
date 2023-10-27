@@ -4,11 +4,17 @@ import requests
 import board
 import neopixel
 # since "mcstatus v9.0.2" you must use JaverServer or BedrockServer not MinecraftServer!
+# from mcstatus import JavaServer
+# or
+# from mcstatus import BedrockServer
 from mcstatus import MinecraftServer
 
 
 # If you know the host and port, you may skip this and use MinecraftServer("example.org", 1234)
 # since "mcstatus v9.0.2" you must use JaverServer or BedrockServer not MinecraftServer!
+# server = JavaServer.lookup("minecraft.geeksmithing.com")
+# or
+# server = BedrockServer.lookup("minecraft.geeksmithing.com")
 server = MinecraftServer.lookup("minecraft.geeksmithing.com")
 
 # this enables a test mode to light up all letters at once when unit is powered on.  This was helpful when building the unit
