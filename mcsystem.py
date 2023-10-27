@@ -165,8 +165,8 @@ def E_colorize():
 def E_colorize_nether():
     pixels[5] =(255,42,0)
     pixels[6] =(255,42,0)
-    pixels[26]=(255,162,0)
     pixels[25]=(255,162,0)
+    pixels[26]=(255,162,0)
     pixels[39]=(255,220,22)
     pixels[40]=(255,220,22)
     pixels.show()
